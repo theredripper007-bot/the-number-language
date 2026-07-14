@@ -1,39 +1,77 @@
-/* =========================================
-   Theme Variables
-========================================= */
+/* =====================================
+   THE NUMBER LANGUAGE
+   Theme System
+===================================== */
 
-body.theme-light {
-    --background: #f6f3ed;
-    --surface: #ffffff;
-    --text: #1f1f1f;
-    --muted: #666666;
-    --primary: #2f5d50;
-    --accent: #caa35a;
+:root {
+
+    --background:#f6f3ed;
+    --surface:#ffffff;
+
+    --text:#1f1f1f;
+    --muted:#6b6b6b;
+
+    --primary:#2f5d50;
+    --accent:#caa35a;
+
 }
 
-body.theme-dark {
-    --background: #111111;
-    --surface: #1d1d1d;
-    --text: #eeeeee;
-    --muted: #aaaaaa;
-    --primary: #7dcfb6;
-    --accent: #e2c275;
+/* ---------- DARK ---------- */
+
+body.dark{
+
+    --background:#111111;
+    --surface:#1d1d1d;
+
+    --text:#f3f3f3;
+    --muted:#b8b8b8;
+
+    --primary:#7ec7a7;
+    --accent:#ffd56a;
+
 }
 
-body.theme-forest {
-    --background: #0f1a14;
-    --surface: #1d2d24;
-    --text: #edf7ef;
-    --muted: #a8b8aa;
-    --primary: #7bbf6a;
-    --accent: #d8c36b;
+/* ---------- FOREST ---------- */
+
+body.forest{
+
+    --background:#102116;
+    --surface:#1d3023;
+
+    --text:#eef7ef;
+    --muted:#b6c3b6;
+
+    --primary:#76c17b;
+    --accent:#d7ba64;
+
 }
 
-body.theme-cosmic {
-    --background: #090b1f;
-    --surface: #161a36;
-    --text: #f4f5ff;
-    --muted: #aeb5d8;
-    --primary: #8b7dff;
-    --accent: #6de0ff;
+/* ---------- COSMIC ---------- */
+
+body.cosmic{
+
+    --background:#070b20;
+    --surface:#101733;
+
+    --text:#edf2ff;
+    --muted:#b2bddf;
+
+    --primary:#7d7bff;
+    --accent:#67ddff;
+
+}
+
+/* ---------- SEPIA ---------- */
+
+body.sepia{
+
+    --background:#f2ead9;
+    --surface:#fffaf0;
+
+    --text:#473726;
+    --muted:#866e4d;
+
+    --primary:#835d2d;
+    --accent:#b98a43;
+
 }
