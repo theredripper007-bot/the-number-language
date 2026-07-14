@@ -1,0 +1,39 @@
+/* =========================================
+   Theme Variables
+========================================= */
+
+body.theme-light {
+    --background: #f6f3ed;
+    --surface: #ffffff;
+    --text: #1f1f1f;
+    --muted: #666666;
+    --primary: #2f5d50;
+    --accent: #caa35a;
+}
+
+body.theme-dark {
+    --background: #111111;
+    --surface: #1d1d1d;
+    --text: #eeeeee;
+    --muted: #aaaaaa;
+    --primary: #7dcfb6;
+    --accent: #e2c275;
+}
+
+body.theme-forest {
+    --background: #0f1a14;
+    --surface: #1d2d24;
+    --text: #edf7ef;
+    --muted: #a8b8aa;
+    --primary: #7bbf6a;
+    --accent: #d8c36b;
+}
+
+body.theme-cosmic {
+    --background: #090b1f;
+    --surface: #161a36;
+    --text: #f4f5ff;
+    --muted: #aeb5d8;
+    --primary: #8b7dff;
+    --accent: #6de0ff;
+}
