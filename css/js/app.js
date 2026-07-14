@@ -1,10 +1,41 @@
-/* =========================================
-   THE NUMBER LANGUAGE
-   Core JavaScript
-========================================= */
+const button = document.getElementById("themeToggle");
 
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("THE NUMBER LANGUAGE loaded.");
+const themes = [
+    "",
+    "dark",
+    "forest",
+    "cosmic",
+    "sepia"
+];
 
-    // Placeholder for future initialization
+let current = 0;
+
+button.addEventListener("click",()=>{
+
+    document.body.className="";
+
+    current++;
+
+    if(current>=themes.length){
+
+        current=0;
+
+    }
+
+    if(themes[current]!=""){
+
+        document.body.classList.add(themes[current]);
+
+    }
+
+    const icons=[
+        "🌞",
+        "🌙",
+        "🌿",
+        "🌌",
+        "📜"
+    ];
+
+    button.textContent=icons[current];
+
 });
